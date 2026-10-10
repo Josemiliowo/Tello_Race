@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating tello_controller.egg-info
+writing tello_controller.egg-info/PKG-INFO
+writing dependency_links to tello_controller.egg-info/dependency_links.txt
+writing entry points to tello_controller.egg-info/entry_points.txt
+writing requirements to tello_controller.egg-info/requires.txt
+writing top-level names to tello_controller.egg-info/top_level.txt
+writing manifest file 'tello_controller.egg-info/SOURCES.txt'
+reading manifest file 'tello_controller.egg-info/SOURCES.txt'
+writing manifest file 'tello_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/emilio/Control/Tello/tello_ws/install/tello_controller/lib/python3.10/site-packages/tello-controller.egg-link (link to .)
+Installing tello_controller script to /home/emilio/Control/Tello/tello_ws/install/tello_controller/lib/tello_controller
+
+Installed /home/emilio/Control/Tello/tello_ws/build/tello_controller
+running symlink_data
+creating /home/emilio/Control/Tello/tello_ws/install/tello_controller/share/ament_index
+creating /home/emilio/Control/Tello/tello_ws/install/tello_controller/share/ament_index/resource_index
+creating /home/emilio/Control/Tello/tello_ws/install/tello_controller/share/ament_index/resource_index/packages
+symbolically linking /home/emilio/Control/Tello/tello_ws/build/tello_controller/resource/tello_controller -> /home/emilio/Control/Tello/tello_ws/install/tello_controller/share/ament_index/resource_index/packages
+symbolically linking /home/emilio/Control/Tello/tello_ws/build/tello_controller/package.xml -> /home/emilio/Control/Tello/tello_ws/install/tello_controller/share/tello_controller
+creating /home/emilio/Control/Tello/tello_ws/install/tello_controller/share/tello_controller/launch
+symbolically linking /home/emilio/Control/Tello/tello_ws/build/tello_controller/launch/tello_line_follower_launch.py -> /home/emilio/Control/Tello/tello_ws/install/tello_controller/share/tello_controller/launch
+creating /home/emilio/Control/Tello/tello_ws/install/tello_controller/share/tello_controller/config
+symbolically linking /home/emilio/Control/Tello/tello_ws/build/tello_controller/config/controller_params.yaml -> /home/emilio/Control/Tello/tello_ws/install/tello_controller/share/tello_controller/config

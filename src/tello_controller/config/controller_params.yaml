@@ -1,0 +1,11 @@
+tello_controller:
+  ros__parameters:
+    cmd_vel_topic: "tello/cmd_vel"
+    image_topic: "tello/camera/image_raw"
+    yaw_topic: "tello/yaw"
+    control_rate_hz: 20.0
+    video_rate_hz: 30.0
+    speed_limit: 50
+    cmd_timeout_sec: 0.5
+    simulate: false
+    enable_motors: true

@@ -1,0 +1,38 @@
+[0.539s] Invoking command in '/home/emilio/Control/Tello/tello_ws/build/tello_controller': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/emilio/Control/Tello/tello_ws/build/tello_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emilio/Control/Tello/tello_ws/install/tello_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/emilio/Control/Tello/tello_ws/build/tello_controller/build
+[0.748s] running develop
+[0.890s] Removing /home/emilio/Control/Tello/tello_ws/install/tello_controller/lib/python3.10/site-packages/tello-controller.egg-link (link to .)
+[0.912s] Invoked command in '/home/emilio/Control/Tello/tello_ws/build/tello_controller' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/emilio/Control/Tello/tello_ws/build/tello_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emilio/Control/Tello/tello_ws/install/tello_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/emilio/Control/Tello/tello_ws/build/tello_controller/build
+[0.913s] Invoking command in '/home/emilio/Control/Tello/tello_ws/src/tello_controller': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/emilio/Control/Tello/tello_ws/build/tello_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emilio/Control/Tello/tello_ws/install/tello_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tello_controller build --build-base /home/emilio/Control/Tello/tello_ws/build/tello_controller/build install --record /home/emilio/Control/Tello/tello_ws/build/tello_controller/install.log --single-version-externally-managed install_data --force
+[1.108s] running egg_info
+[1.109s] writing ../../build/tello_controller/tello_controller.egg-info/PKG-INFO
+[1.109s] writing dependency_links to ../../build/tello_controller/tello_controller.egg-info/dependency_links.txt
+[1.109s] writing entry points to ../../build/tello_controller/tello_controller.egg-info/entry_points.txt
+[1.110s] writing requirements to ../../build/tello_controller/tello_controller.egg-info/requires.txt
+[1.110s] writing top-level names to ../../build/tello_controller/tello_controller.egg-info/top_level.txt
+[1.110s] reading manifest file '../../build/tello_controller/tello_controller.egg-info/SOURCES.txt'
+[1.114s] writing manifest file '../../build/tello_controller/tello_controller.egg-info/SOURCES.txt'
+[1.114s] running build
+[1.117s] running build_py
+[1.117s] creating /home/emilio/Control/Tello/tello_ws/build/tello_controller/build
+[1.117s] creating /home/emilio/Control/Tello/tello_ws/build/tello_controller/build/lib
+[1.118s] creating /home/emilio/Control/Tello/tello_ws/build/tello_controller/build/lib/tello_controller
+[1.118s] copying tello_controller/__init__.py -> /home/emilio/Control/Tello/tello_ws/build/tello_controller/build/lib/tello_controller
+[1.118s] copying tello_controller/tello_controller.py -> /home/emilio/Control/Tello/tello_ws/build/tello_controller/build/lib/tello_controller
+[1.118s] running install
+[1.118s] running install_lib
+[1.118s] creating /home/emilio/Control/Tello/tello_ws/install/tello_controller/lib/python3.10/site-packages/tello_controller
+[1.118s] copying /home/emilio/Control/Tello/tello_ws/build/tello_controller/build/lib/tello_controller/__init__.py -> /home/emilio/Control/Tello/tello_ws/install/tello_controller/lib/python3.10/site-packages/tello_controller
+[1.119s] copying /home/emilio/Control/Tello/tello_ws/build/tello_controller/build/lib/tello_controller/tello_controller.py -> /home/emilio/Control/Tello/tello_ws/install/tello_controller/lib/python3.10/site-packages/tello_controller
+[1.119s] byte-compiling /home/emilio/Control/Tello/tello_ws/install/tello_controller/lib/python3.10/site-packages/tello_controller/__init__.py to __init__.cpython-310.pyc
+[1.119s] byte-compiling /home/emilio/Control/Tello/tello_ws/install/tello_controller/lib/python3.10/site-packages/tello_controller/tello_controller.py to tello_controller.cpython-310.pyc
+[1.120s] running install_data
+[1.120s] copying resource/tello_controller -> /home/emilio/Control/Tello/tello_ws/install/tello_controller/share/ament_index/resource_index/packages
+[1.120s] copying package.xml -> /home/emilio/Control/Tello/tello_ws/install/tello_controller/share/tello_controller
+[1.120s] copying launch/tello_line_follower_launch.py -> /home/emilio/Control/Tello/tello_ws/install/tello_controller/share/tello_controller/launch
+[1.120s] copying config/controller_params.yaml -> /home/emilio/Control/Tello/tello_ws/install/tello_controller/share/tello_controller/config
+[1.120s] running install_egg_info
+[1.122s] Copying ../../build/tello_controller/tello_controller.egg-info to /home/emilio/Control/Tello/tello_ws/install/tello_controller/lib/python3.10/site-packages/tello_controller-0.0.0-py3.10.egg-info
+[1.123s] running install_scripts
+[1.138s] Installing tello_controller script to /home/emilio/Control/Tello/tello_ws/install/tello_controller/lib/tello_controller
+[1.138s] writing list of installed files to '/home/emilio/Control/Tello/tello_ws/build/tello_controller/install.log'
+[1.158s] Invoked command in '/home/emilio/Control/Tello/tello_ws/src/tello_controller' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/emilio/Control/Tello/tello_ws/build/tello_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emilio/Control/Tello/tello_ws/install/tello_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tello_controller build --build-base /home/emilio/Control/Tello/tello_ws/build/tello_controller/build install --record /home/emilio/Control/Tello/tello_ws/build/tello_controller/install.log --single-version-externally-managed install_data --force

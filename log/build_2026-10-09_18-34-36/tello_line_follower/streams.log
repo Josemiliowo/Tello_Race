@@ -1,0 +1,29 @@
+[0.726s] Invoking command in '/home/emilio/Control/Tello/tello_ws/src/tello_line_follower': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/emilio/Control/Tello/tello_ws/build/tello_line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emilio/Control/Tello/tello_ws/install/tello_line_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tello_line_follower build --build-base /home/emilio/Control/Tello/tello_ws/build/tello_line_follower/build install --record /home/emilio/Control/Tello/tello_ws/build/tello_line_follower/install.log --single-version-externally-managed install_data
+[0.918s] running egg_info
+[0.919s] writing ../../build/tello_line_follower/tello_line_follower.egg-info/PKG-INFO
+[0.919s] writing dependency_links to ../../build/tello_line_follower/tello_line_follower.egg-info/dependency_links.txt
+[0.919s] writing entry points to ../../build/tello_line_follower/tello_line_follower.egg-info/entry_points.txt
+[0.919s] writing requirements to ../../build/tello_line_follower/tello_line_follower.egg-info/requires.txt
+[0.919s] writing top-level names to ../../build/tello_line_follower/tello_line_follower.egg-info/top_level.txt
+[0.921s] reading manifest file '../../build/tello_line_follower/tello_line_follower.egg-info/SOURCES.txt'
+[0.921s] writing manifest file '../../build/tello_line_follower/tello_line_follower.egg-info/SOURCES.txt'
+[0.931s] running build
+[0.931s] running build_py
+[0.932s] copying tello_line_follower/tello_gui.py -> /home/emilio/Control/Tello/tello_ws/build/tello_line_follower/build/lib/tello_line_follower
+[0.932s] copying tello_line_follower/tello_line_follower.py -> /home/emilio/Control/Tello/tello_ws/build/tello_line_follower/build/lib/tello_line_follower
+[0.932s] running install
+[0.933s] running install_lib
+[0.933s] copying /home/emilio/Control/Tello/tello_ws/build/tello_line_follower/build/lib/tello_line_follower/tello_gui.py -> /home/emilio/Control/Tello/tello_ws/install/tello_line_follower/lib/python3.10/site-packages/tello_line_follower
+[0.933s] copying /home/emilio/Control/Tello/tello_ws/build/tello_line_follower/build/lib/tello_line_follower/tello_line_follower.py -> /home/emilio/Control/Tello/tello_ws/install/tello_line_follower/lib/python3.10/site-packages/tello_line_follower
+[0.934s] byte-compiling /home/emilio/Control/Tello/tello_ws/install/tello_line_follower/lib/python3.10/site-packages/tello_line_follower/tello_gui.py to tello_gui.cpython-310.pyc
+[0.936s] byte-compiling /home/emilio/Control/Tello/tello_ws/install/tello_line_follower/lib/python3.10/site-packages/tello_line_follower/tello_line_follower.py to tello_line_follower.cpython-310.pyc
+[0.938s] running install_data
+[0.939s] copying package.xml -> /home/emilio/Control/Tello/tello_ws/install/tello_line_follower/share/tello_line_follower
+[0.939s] running install_egg_info
+[0.940s] removing '/home/emilio/Control/Tello/tello_ws/install/tello_line_follower/lib/python3.10/site-packages/tello_line_follower-0.0.0-py3.10.egg-info' (and everything under it)
+[0.940s] Copying ../../build/tello_line_follower/tello_line_follower.egg-info to /home/emilio/Control/Tello/tello_ws/install/tello_line_follower/lib/python3.10/site-packages/tello_line_follower-0.0.0-py3.10.egg-info
+[0.941s] running install_scripts
+[0.955s] Installing tello_gui script to /home/emilio/Control/Tello/tello_ws/install/tello_line_follower/lib/tello_line_follower
+[0.956s] Installing tello_line_follower script to /home/emilio/Control/Tello/tello_ws/install/tello_line_follower/lib/tello_line_follower
+[0.956s] writing list of installed files to '/home/emilio/Control/Tello/tello_ws/build/tello_line_follower/install.log'
+[0.995s] Invoked command in '/home/emilio/Control/Tello/tello_ws/src/tello_line_follower' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/emilio/Control/Tello/tello_ws/build/tello_line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emilio/Control/Tello/tello_ws/install/tello_line_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tello_line_follower build --build-base /home/emilio/Control/Tello/tello_ws/build/tello_line_follower/build install --record /home/emilio/Control/Tello/tello_ws/build/tello_line_follower/install.log --single-version-externally-managed install_data

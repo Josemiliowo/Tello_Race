@@ -1,0 +1,4 @@
+[console_scripts]
+tello_gui = tello_line_follower.tello_gui:main
+tello_line_follower = tello_line_follower.tello_line_follower:main
+

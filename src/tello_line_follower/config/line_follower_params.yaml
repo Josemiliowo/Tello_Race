@@ -1,0 +1,47 @@
+tello_line_follower:
+  ros__parameters:
+    image_topic: "tello/camera/image_raw"
+    cmd_vel_topic: "tello/cmd_vel"
+    debug_image_topic: "tello/line_follower/debug_image"
+    publish_debug_image: true
+
+    hsv_lower: [90, 80, 50]
+    hsv_upper: [130, 255, 255]
+
+    # Frames are resized to this width before processing (0 = full res).
+    # Pixel values below (min_contour_area, tag_trigger_size_px) are in full-res pixels.
+    process_width: 480
+
+    roi_top_ratio: 0.5
+    min_contour_area: 300.0
+    num_slices: 5               # horizontal slices used to measure the line shape
+
+    # Heading: yaw PD on the line angle (rad).
+    kp_yaw: 1.0
+    kd_yaw: 0.1
+    max_angular: 1.0
+    # Lateral: strafe PD on the near (bottom) offset, normalized -1..1.
+    kp_lateral: 0.6
+    kd_lateral: 0.1
+    max_lateral: 0.5
+    d_filter_alpha: 0.5         # derivative low-pass, 1 = no filtering
+
+    # Forward speed, scaled down by line angle / look-ahead offset.
+    linear_speed: 0.3
+    slowdown_gain: 0.7
+    min_speed_scale: 0.3
+    slowdown_angle_deg: 45.0    # line angle that counts as a full bend
+
+    search_yaw_speed: 0.2
+
+    # AprilTags (tag36h11). left_turn_ids / right_turn_ids / land_ids are set from the launch file.
+    yaw_topic: "tello/yaw"
+    land_service: "tello/land"
+    tag_trigger_size_px: 80.0   # tag side length in the image needed to react (bigger = closer)
+    tag_cooldown_sec: 3.0       # ignore tags this long after a maneuver ends
+    turn_angle_deg: 90.0
+    turn_tolerance_deg: 3.0
+    turn_yaw_speed: 0.6
+    turn_timeout_sec: 8.0
+    seek_speed: 0.3             # forward speed while looking for the line after a turn
+    seek_timeout_sec: 5.0

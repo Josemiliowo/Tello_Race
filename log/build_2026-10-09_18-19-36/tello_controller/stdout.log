@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/tello_controller/tello_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/tello_controller/tello_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/tello_controller/tello_controller.egg-info/entry_points.txt
+writing requirements to ../../build/tello_controller/tello_controller.egg-info/requires.txt
+writing top-level names to ../../build/tello_controller/tello_controller.egg-info/top_level.txt
+reading manifest file '../../build/tello_controller/tello_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/tello_controller/tello_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+copying tello_controller/tello_controller.py -> /home/emilio/Control/Tello/tello_ws/build/tello_controller/build/lib/tello_controller
+running install
+running install_lib
+copying /home/emilio/Control/Tello/tello_ws/build/tello_controller/build/lib/tello_controller/tello_controller.py -> /home/emilio/Control/Tello/tello_ws/install/tello_controller/lib/python3.10/site-packages/tello_controller
+byte-compiling /home/emilio/Control/Tello/tello_ws/install/tello_controller/lib/python3.10/site-packages/tello_controller/tello_controller.py to tello_controller.cpython-310.pyc
+running install_data
+copying package.xml -> /home/emilio/Control/Tello/tello_ws/install/tello_controller/share/tello_controller
+copying launch/tello_line_follower_launch.py -> /home/emilio/Control/Tello/tello_ws/install/tello_controller/share/tello_controller/launch
+copying config/controller_params.yaml -> /home/emilio/Control/Tello/tello_ws/install/tello_controller/share/tello_controller/config
+running install_egg_info
+removing '/home/emilio/Control/Tello/tello_ws/install/tello_controller/lib/python3.10/site-packages/tello_controller-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/tello_controller/tello_controller.egg-info to /home/emilio/Control/Tello/tello_ws/install/tello_controller/lib/python3.10/site-packages/tello_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing tello_controller script to /home/emilio/Control/Tello/tello_ws/install/tello_controller/lib/tello_controller
+writing list of installed files to '/home/emilio/Control/Tello/tello_ws/build/tello_controller/install.log'

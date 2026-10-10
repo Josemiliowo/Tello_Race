@@ -1,0 +1,20 @@
+[0.679s] Invoking command in '/home/emilio/Control/Tello/tello_ws/build/tello_line_follower': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/emilio/Control/Tello/tello_ws/build/tello_line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emilio/Control/Tello/tello_ws/install/tello_line_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/emilio/Control/Tello/tello_ws/build/tello_line_follower/build --no-deps symlink_data --force
+[0.875s] running develop
+[1.010s] running egg_info
+[1.010s] writing tello_line_follower.egg-info/PKG-INFO
+[1.010s] writing dependency_links to tello_line_follower.egg-info/dependency_links.txt
+[1.010s] writing entry points to tello_line_follower.egg-info/entry_points.txt
+[1.010s] writing requirements to tello_line_follower.egg-info/requires.txt
+[1.010s] writing top-level names to tello_line_follower.egg-info/top_level.txt
+[1.011s] reading manifest file 'tello_line_follower.egg-info/SOURCES.txt'
+[1.012s] writing manifest file 'tello_line_follower.egg-info/SOURCES.txt'
+[1.013s] running build_ext
+[1.013s] Creating /home/emilio/Control/Tello/tello_ws/install/tello_line_follower/lib/python3.10/site-packages/tello-line-follower.egg-link (link to .)
+[1.013s] Installing tello_line_follower script to /home/emilio/Control/Tello/tello_ws/install/tello_line_follower/lib/tello_line_follower
+[1.014s] 
+[1.014s] Installed /home/emilio/Control/Tello/tello_ws/build/tello_line_follower
+[1.014s] running symlink_data
+[1.014s] symbolically linking /home/emilio/Control/Tello/tello_ws/build/tello_line_follower/resource/tello_line_follower -> /home/emilio/Control/Tello/tello_ws/install/tello_line_follower/share/ament_index/resource_index/packages
+[1.014s] symbolically linking /home/emilio/Control/Tello/tello_ws/build/tello_line_follower/package.xml -> /home/emilio/Control/Tello/tello_ws/install/tello_line_follower/share/tello_line_follower
+[1.014s] symbolically linking /home/emilio/Control/Tello/tello_ws/build/tello_line_follower/config/line_follower_params.yaml -> /home/emilio/Control/Tello/tello_ws/install/tello_line_follower/share/tello_line_follower/config
+[1.035s] Invoked command in '/home/emilio/Control/Tello/tello_ws/build/tello_line_follower' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/emilio/Control/Tello/tello_ws/build/tello_line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emilio/Control/Tello/tello_ws/install/tello_line_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/emilio/Control/Tello/tello_ws/build/tello_line_follower/build --no-deps symlink_data --force
